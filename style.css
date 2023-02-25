@@ -115,7 +115,7 @@ body {
 	color: white;
 }
 
-.carousel-images img:first-of-type {
+.carousel-projects img:first-of-type {
 	display:block
 }
 
@@ -165,7 +165,7 @@ div {
     float: right;
   }
 
-  @media (max-width: 500px) {
+  /* @media (max-width: 500px) {
     h1 {
       font-size: 50px;
       margin-top: 20px;
@@ -185,4 +185,4 @@ div {
     small {
       font-size: 16px;
     }
-  }
+  } */

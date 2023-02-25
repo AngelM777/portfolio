@@ -36,9 +36,14 @@ $('.previous').on('click', () => {
         $('.projects').children().eq(currentIndex).css('display', 'block');
        })
 
+    });
 
-    //    $('div').on('click', function() {
-    //     $(this).toggleClass('show-description');
-    // });
 
+    const $show = $('<div>').addClass('show-description')
+
+    $('div').on('click', function() {
+     $(this).toggleClass('show-description');
+
+
+    $('body').append($show);
 });

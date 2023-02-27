@@ -42,5 +42,6 @@ $('.previous').on('click', () => {
     $(this).toggleClass('show-description');
 });
 
+/* add media query */
 
 });

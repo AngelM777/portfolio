@@ -72,9 +72,9 @@ a {
     }
     
     .carousel-images img {
-      width: 100%;
       border-radius: 10px;
       display: none;
+      height: 400px;
     }
  
     .carousel-container {
@@ -106,19 +106,18 @@ p {
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  /*background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4)); */
   padding: 10px;
   line-height: 28px;
   text-align: justify;
   position: absolute;
-  left: 36.75%;
-  bottom: -500px;
-  width: 25%;
+  margin: 0 50% 50% 14%;
+  width: 26%;
   height: 30px;
   transition: height .5s;
-  -webkit-transition: height .5s;
-  -moz-transition: height .5s;
+  /*-webkit-transition: height .5s;
+  -moz-transition: height .5s; */
   border-radius: 10px;
 
 }
@@ -153,3 +152,5 @@ small {
 .more {
   float: right;
 }
+
+/* add media query */

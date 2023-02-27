@@ -48,57 +48,61 @@ a {
     font-family: 'Gloock';
 }
   
-  ul {
+ul {
     padding: 10px;
     background: rgba(0,0,0,0.3);
-  }
-  li {
+}
+
+li {
     display: inline;
     padding: 0px 10px 0px 10px;
-  }
+}
     
-  body {
+body {
     background-color: #928eb9 ;
     text-align: center;
-    }
+}
 
-    .carousel-button:hover {
-      cursor: pointer;
-      color: white;
-    }
+/*carousel*/
+
+.carousel-button:hover {
+  cursor: pointer;
+  color: white;
+}
     
-    .carousel-images img:first-of-type {
-      display:block
-    }
+.carousel-images img:first-of-type {
+  display:block
+}
     
-    .carousel-images img {
-      border-radius: 10px;
-      display: none;
-      height: 400px;
-    }
+.carousel-images img {
+  border-radius: 10px;
+  display: none;
+  height: 400px;
+}
  
-    .carousel-container {
-      width: 70%;
-      display: flex;
-      justify-content: space-around;
-    }
-    .carousel-images {
-      width: 80%;
-      background: #928eb9;
-      padding: 10px;
-      border-radius: 10px;
-      box-sizing: border-box;
+.carousel-container {
+  width: 70%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.carousel-images {
+  width: 80%;
+  background: #928eb9;
+  padding: 10px;
+  border-radius: 10px;
+  box-sizing: border-box;
     
     }
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
     
-    .container > img {
-      width: 50%;
-    }
+.container > img {
+  width: 50%;
+}
  
 /* biography */
 
@@ -106,8 +110,6 @@ p {
   color: rgba(255,255,255,1);
   background: black;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  /*background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4)); */
   padding: 10px;
   line-height: 28px;
   text-align: justify;
@@ -116,8 +118,6 @@ p {
   width: 26%;
   height: 30px;
   transition: height .5s;
-  /*-webkit-transition: height .5s;
-  -moz-transition: height .5s; */
   border-radius: 10px;
 
 }

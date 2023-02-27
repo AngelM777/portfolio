@@ -119,6 +119,7 @@ p {
   transition: height .5s;
   -webkit-transition: height .5s;
   -moz-transition: height .5s;
+  border-radius: 10px;
 
 }
 

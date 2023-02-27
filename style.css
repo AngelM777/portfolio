@@ -15,9 +15,9 @@
 
 header {
     text-align: center;
-    background: url(https://tinyurl.com/mtz6mytf);
+    background: url(https://tinyurl.com/47ev6h8u);
     background-size: cover;
-    color: white;
+    color: #dfe8f1;
     align-self: center;
     align-items: center;
 }
@@ -31,26 +31,22 @@ h1 {
     align-self: center;
     align-items: center;
   }
-
-h2 {
-    text-align: center;
-    color: white;
-    margin: 0px 0 70px 0;
+  h2 {
     font-family: 'Gloock';
+    background-color: #928eb9;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    margin: 60px 0 0 0;
     align-self: center;
     align-items: center;
   }
+
 
 a {
     color: white;
     font-family: 'Gloock';
 }
-
-img {
-    margin: 15px 0px 0px 0px;
-    border: 2px solid black;
-    border-radius: 20px;
-  }
   
   ul {
     padding: 10px;
@@ -61,140 +57,98 @@ img {
     padding: 0px 10px 0px 10px;
   }
     
-body {
-    background: #12345B;
+  body {
+    background-color: #928eb9 ;
     text-align: center;
-    align-self: center;
-    align-items: center;
+    }
+
+    .carousel-button:hover {
+      cursor: pointer;
+      color: white;
+    }
+    
+    .carousel-images img:first-of-type {
+      display:block
+    }
+    
+    .carousel-images img {
+      width: 100%;
+      border-radius: 10px;
+      display: none;
+    }
+ 
+    .carousel-container {
+      width: 70%;
+      display: flex;
+      justify-content: space-around;
+    }
+    .carousel-images {
+      width: 80%;
+      background: #928eb9;
+      padding: 10px;
+      border-radius: 10px;
+      box-sizing: border-box;
+    
+    }
+    .container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .container > img {
+      width: 50%;
+    }
+ 
+/* biography */
+
+p {
+  color: rgba(255,255,255,1);
+  background: black;
+  background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
+  padding: 10px;
+  line-height: 28px;
+  text-align: justify;
+  position: absolute;
+  left: 36.75%;
+  bottom: -500px;
+  width: 25%;
+  height: 30px;
+  transition: height .5s;
+  -webkit-transition: height .5s;
+  -moz-transition: height .5s;
+
 }
 
-.container {
-	text-align: center;
-  display: flex;
-	flex-direction: column;
-	align-items: center;
+small {
+  opacity: 0;
 }
 
-.container > img {
-	width: 50%;
+.show-description p {
+  height: 150px;
 }
 
-.container > h1 {
-	text-align: center;
-  font-family: 'Gloock';
-	font-weight: 800;
-	font-size: 2.5em;
-	margin-top: -1%;
-	color: #4caaa8;
-	text-shadow: 1px 1px #f2cd99;
-	letter-spacing: 2px;
+.show-description small {
+  opacity: 1;
 }
 
-/* PROJECTS */
-.projects-container {
-	text-align: center;
-  width: 70%;
-	display: flex;
-	justify-content: space-around;
-}
-.carousel-projects {
-	text-align: center;
+.biography{
+  background-color:#928eb9;
+  display: inline-block;
+  margin: 10px auto;
+  overflow: auto;
+  border-radius: 10px;
   width: 80%;
-	background: #fa8d8e;
-	padding: 10px;
-	border-radius: 10px;
-	box-sizing: border-box;
-	box-shadow: 2px 2px #f2cd99;
+  font-family: 'Gloock';
+
 }
-.carousel-projects img {
-	width: 100%;
-	border-radius: 10px;
-	display: none;
-}
-.carousel-button {
-	align-self: center;
-	background: #f2cd99;
-	color: #888;
-	padding: 10px;
-	border-radius: 50%;
-	text-align: center;
-	box-shadow: 1px 1px #fa8d8e;
-}
-.carousel-button:hover {
-	cursor: pointer;
-	background: #fa8d8e;
-	box-shadow: 1px 1px #f2cd99;
-	color: white;
+.biography img{
+  width: 50%;
+  border-radius: 20px;
 }
 
-.carousel-projects img:first-of-type {
-	display:block
+.more {
+  float: right;
 }
-
-div {
-    height: 200px;
-    background-size: cover;
-    position: relative;
-    margin: 40px 0 0 0;
-    border-radius: 12px;
-}
-
-  p {
-    color: rgba(255,255,255,1);
-    background: black;
-    background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-    background: -webkit-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-    background: -moz-linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
-    padding: 10px;
-    line-height: 28px;
-    text-align: justify;
-    position: absolute;
-    bottom: 0;
-    margin: 0;
-    height: 30px;
-    transition: height .5s;
-    -webkit-transition: height .5s;
-    -moz-transition: height .5s;
-  }
-  
-  small {
-    opacity: 0;
-  }
-  
-  .show-description p {
-    height: 150px;
-  }
-  
-  .show-description small {
-    opacity: 1;
-  }
-  
-  .biography{
-    background-color: gray
-  }
-
-  .more {
-    float: right;
-  }
-
-  /* @media (max-width: 500px) {
-    h1 {
-      font-size: 50px;
-      margin-top: 20px;
-      line-height: 40px;
-    }
-    h2 {
-      font-size: 20px;
-      margin: 20px 0 30px 0;
-    }
-    div {
-      margin: 20px 12px 0 12px;
-    }
-    p {
-      font-size: 20px;
-      line-height: 24px;
-    }
-    small {
-      font-size: 16px;
-    }
-  } */

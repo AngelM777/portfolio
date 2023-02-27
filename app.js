@@ -6,44 +6,41 @@ $(() => {
 //biography that goes down
 //carousel for projects
 
-    let currentIndex = 0;
+let currentImgIndex = 0;
 
-    const num = $('.projects').children().length - 1
+const numOfImages = $('.carousel-images').children().length - 1
 
-    $('.next').on('click', () => {
-       
-        $('.projects').children().eq(currentIndex).css('display', 'none');
-        
-        if(currentIndex < num) {
-            currentIndex++
-           } else {
-            currentImgIndex = 0
-           }
+$('.next').on('click', () => {
+  
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none');
+    
+    if(currentImgIndex < numOfImages) {
+        currentImgIndex++
+       } else {
+        currentImgIndex = 0
+       }
 
-        $('.projects').children().eq(currentIndex).css('display', 'block');
-       })
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block');
+   })
 
 $('.previous').on('click', () => {
-        
-        $('.projects').children().eq(currentIndex).css('display', 'none');
-        
-        if(currentIndex > 0) {
-            currentIndex --
-           } else {
-            currentIndex = num
-           }
+    
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'none');
+    
+    if(currentImgIndex > 0) {
+        currentImgIndex --
+       } else {
+        currentImgIndex = numOfImages
+       }
 
-        $('.projects').children().eq(currentIndex).css('display', 'block');
-       })
+    $('.carousel-images').children().eq(currentImgIndex).css('display', 'block');
+   })
 
-    });
+   /* biography */
 
-
-    const $show = $('<div>').addClass('show-description')
-
-    $('div').on('click', function() {
-     $(this).toggleClass('show-description');
+   $('article').on('click', function() {
+    $(this).toggleClass('show-description');
+});
 
 
-    $('body').append($show);
 });

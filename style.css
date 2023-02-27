@@ -124,10 +124,12 @@ p {
 
 small {
   opacity: 0;
+  font-size: 20px;
+ 
 }
 
 .show-description p {
-  height: 150px;
+  height: 45%;
 }
 
 .show-description small {
@@ -147,6 +149,8 @@ small {
 .biography img{
   width: 50%;
   border-radius: 20px;
+  margin: auto auto;
+  display: block;
 }
 
 .more {

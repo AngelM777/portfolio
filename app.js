@@ -43,5 +43,23 @@ $('.previous').on('click', () => {
 });
 
 /* add media query */
+/*modal*/
+
+const openModal = document.getElementById('openModal');
+const modal = document.getElementById('modal');
+const close = document.getElementById('close');
+
+openModal.addEventListener('click', () => {
+  modal.style.display = 'block';
+});
+
+close.addEventListener('click', () => {
+  modal.style.display = 'none';
+});
+
+
+
+
+
 
 });

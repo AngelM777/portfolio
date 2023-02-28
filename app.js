@@ -17,7 +17,7 @@ $(() => {
     if(currentProject < num) {
         currentProject++
        } else {
-        currentImgIndex = 0
+        currentProject = 0
        }
 
     $('.carousel-images').children().eq(currentProject).css('display', 'block');

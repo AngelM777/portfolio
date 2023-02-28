@@ -3,14 +3,14 @@
 
 $(() => {
 
-//biography that goes down
-//carousel for projects
+    //biography that goes down
+    //carousel for projects
 
-let currentImgIndex = 0;
+    let currentImgIndex = 0;
 
-const numOfImages = $('.carousel-images').children().length - 1
+    const numOfImages = $('.carousel-images').children().length - 1
 
-$('.next').on('click', () => {
+    $('.next').on('click', () => {
   
     $('.carousel-images').children().eq(currentImgIndex).css('display', 'none');
     
@@ -21,9 +21,9 @@ $('.next').on('click', () => {
        }
 
     $('.carousel-images').children().eq(currentImgIndex).css('display', 'block');
-   })
+    })
 
-$('.previous').on('click', () => {
+    $('.previous').on('click', () => {
     
     $('.carousel-images').children().eq(currentImgIndex).css('display', 'none');
     
@@ -34,32 +34,27 @@ $('.previous').on('click', () => {
        }
 
     $('.carousel-images').children().eq(currentImgIndex).css('display', 'block');
-   })
+    })
 
-   /* biography */
+    // biography //
 
-   $('article').on('click', function() {
+    $('article').on('click', function() {
     $(this).toggleClass('show-description');
-});
+    });
 
-/* add media query */
-/*modal*/
+    //add media query//
+    //modal//
 
-const openModal = document.getElementById('openModal');
-const modal = document.getElementById('modal');
-const close = document.getElementById('close');
+    const openModal = document.getElementById('openModal');
+    const modal = document.getElementById('modal');
+    const close = document.getElementById('close');
 
-openModal.addEventListener('click', () => {
-  modal.style.display = 'block';
-});
+    openModal.addEventListener('click', () => {
+    modal.style.display = 'block';
+    });
 
-close.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
-
-
-
-
-
+    close.addEventListener('click', () => {
+    modal.style.display = 'none';
+    });
 
 });

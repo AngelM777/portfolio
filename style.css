@@ -226,6 +226,15 @@ small {
   small {
     font-size: 16px;
   }
+  .show-description p {
+    height: 20%;
+  }
+  .profile {
+    width: 50%;
+    border-radius: 20px;
+    margin: auto auto;
+    display: none;
+  }
 }
 
 

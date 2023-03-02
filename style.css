@@ -146,12 +146,6 @@ small {
   font-family: 'Gloock';
 
 }
-.biography img{
-  width: 50%;
-  border-radius: 20px;
-  margin: auto auto;
-  display: block;
-}
 
 .more {
   float: right;

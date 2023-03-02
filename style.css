@@ -228,17 +228,19 @@ small {
     font-size: 16px;
   }
   .show-description p {
-    height: 10%;
+    height: 5%;
   }
   
 }
 
 @media (max-width: 700px) {
 
-
   .show-description p {
-    height: 20%;
+    height: 40%;
   }
 
-}
+  p {
+  margin: 0 50% 30% 14%;
+  }
+  
 }

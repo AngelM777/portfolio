@@ -3,7 +3,6 @@
 
 $(() => {
 
-    //biography that goes down
     //carousel for projects
 
     let currentProject = 0;
@@ -57,6 +56,5 @@ $(() => {
     });
 
 
-    //add media query//
 
 });

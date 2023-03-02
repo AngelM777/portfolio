@@ -228,7 +228,7 @@ small {
     font-size: 16px;
   }
   .show-description p {
-    height: 20%;
+    height: 10%;
   }
   .profile {
     width: 50%;
@@ -241,6 +241,7 @@ small {
     width: 50%;
     border-radius: 20px;
     margin: auto auto;
+    display: none;
   }
 }
 

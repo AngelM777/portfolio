@@ -147,6 +147,13 @@ small {
 
 }
 
+.biography img{
+  width: 50%;
+  border-radius: 20px;
+  margin: auto auto;
+  display: block;
+}
+
 .more {
   float: right;
 }
@@ -228,6 +235,12 @@ small {
     border-radius: 20px;
     margin: auto auto;
     display: none;
+  }
+
+  .biography img{
+    width: 50%;
+    border-radius: 20px;
+    margin: auto auto;
   }
 }
 

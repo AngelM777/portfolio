@@ -228,7 +228,7 @@ and (max-width: 1500px) {
 }
 
 @media only screen
-and (max-width: 500px)
+and (max-width: 480px)
 and (orientation: portrait) {
 
   .carousel-images img:first-of-type {
@@ -238,7 +238,8 @@ and (orientation: portrait) {
   .carousel-images img {
     display: none;
     border-radius: 10px;
-    width: 50px;
+    max-width: 100%;
+    height: auto;
   }
 
   h1 {
@@ -264,7 +265,8 @@ and (orientation: portrait) {
     height: 5%;
   }
   article img {
-    width: 100px;
+    max-width: 100%;
+    height: auto;
     
   }
 
@@ -290,64 +292,4 @@ and (orientation: portrait) {
   
  
 
-}
-
-
-@media only screen
-and (max-width: 200px)
-and (orientation: portrait) {
-
-  .carousel-images img:first-of-type {
-    display:block
-  }
-      
-  .carousel-images img {
-    display: none;
-    border-radius: 10px;
-    width: 50px;
-  }
-  h1 {
-    font-size: 50px;
-    margin-top: 20px;
-    line-height: 40px;
-  }
-  h2 {
-    font-size: 20px;
-    margin: 20px 0 30px 0;
-  }
-  div {
-    margin: 20px 12px 0 12px;
-  }
-  p {
-    font-size: 20px;
-    line-height: 24px;
-  }
-  small {
-    font-size: 16px;
-  }
-  .show-description p {
-    height: 5%;
-  }
-  article img {
-    width: 25px;
-  }
-
-#react {
-  src: url(https://tinyurl.com/552kn64d);
-
-}
-
-#php {
-  src: url(https://tinyurl.com/552kn64d);
-
-}
-
-#flexbox {
-  src: url(https://tinyurl.com/552kn64d);
-
-}
-  
-#pic {
-  src: url(https://tinyurl.com/5n7nv3kv);
-}
 }

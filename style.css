@@ -244,8 +244,26 @@ article img {
     font-size: 16px;
   }
   .show-description p {
-    height: 5%;
+    height: 10%;
   }
-
+  article img {
+    max-width: 100%;
+    height: auto;
+    display: flex;
+    margin: 0 auto !important;
+    padding: 20x;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
+  .carousel-images {
+    width: 80%;
+    background: #928eb9;
+    padding: 10px;
+    border-radius: 10px;
+    box-sizing: border-box;
+      
+}
 
 }

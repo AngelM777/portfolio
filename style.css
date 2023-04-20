@@ -218,6 +218,14 @@ article img {
 	cursor: pointer;
 }
 
+@media (max-width: 1500px){
+  .carousel-images img {
+    border-radius: 10px;
+    display: none;
+    width: 500px;
+  }
+}
+
 @media (min-width: 400px) and  (max-width: 500px) {
   .carousel-images img {
     width: 100px;

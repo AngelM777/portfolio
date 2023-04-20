@@ -77,7 +77,7 @@ body {
 .carousel-images img {
   border-radius: 10px;
   display: none;
-  height: 400px;
+  width: 1000px;
 }
  
 .carousel-container {
@@ -136,6 +136,8 @@ small {
   opacity: 1;
 }
 
+
+
 .biography{
   background-color:#928eb9;
   display: inline-block;
@@ -147,11 +149,20 @@ small {
 
 }
 
-.biography img{
-  width: 50%;
-  border-radius: 20px;
-  margin: auto auto;
-  display: block;
+article {
+  display: flex;
+ 
+}
+
+article img {
+  max-width: 100%;
+  height: auto;
+  display: flex;
+  margin: 0 auto !important;
+  padding: 20x;
+  text-align: center !important;
+  justify-content: center !important;
+  align-items: center !important;
 }
 
 .more {
@@ -208,6 +219,11 @@ small {
 }
 
 @media (max-width: 500px) {
+  .carousel-images img {
+    border-radius: 10px;
+    display: none;
+    width: 400px;
+  }
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -230,5 +246,6 @@ small {
   .show-description p {
     height: 5%;
   }
-  
+
+
 }

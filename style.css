@@ -240,7 +240,7 @@ and (orientation: portrait) {
     border-radius: 10px;
     width: 50px;
   }
-  
+
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -270,22 +270,22 @@ and (orientation: portrait) {
 
 
 #react {
-  src: url(https://tinyurl.com/552kn64d);
+  src: url(https://tinyurl.com/552kn64d) !important ;
 
 }
 
 #php {
-  src: url(https://tinyurl.com/552kn64d);
+  src: url(https://tinyurl.com/552kn64d) !important;
 
 }
 
 #flexbox {
-  src: url(https://tinyurl.com/552kn64d);
+  src: url(https://tinyurl.com/552kn64d) !important;
 
 }
   
 #pic {
-  src: url(https://tinyurl.com/5n7nv3kv);
+  src: url(https://tinyurl.com/5n7nv3kv) !important;
 }
   
  

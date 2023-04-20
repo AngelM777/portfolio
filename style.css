@@ -218,7 +218,7 @@ article img {
 	cursor: pointer;
 }
 
-@media (max-width: 500px) {
+@media (min-width: 400px) and  (max-width: 500px) {
   .carousel-images img {
     border-radius: 10px;
     width: 100px;
@@ -258,4 +258,45 @@ article img {
   
  
 
+}
+
+
+@media (max-width: 200px) {
+  .carousel-images img {
+    border-radius: 10px;
+    width: 50px;
+  }
+  h1 {
+    font-size: 50px;
+    margin-top: 20px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 20px;
+    margin: 20px 0 30px 0;
+  }
+  div {
+    margin: 20px 12px 0 12px;
+  }
+  p {
+    font-size: 20px;
+    line-height: 24px;
+  }
+  small {
+    font-size: 16px;
+  }
+  .show-description p {
+    height: 5%;
+  }
+  article img {
+    width: 25px;
+    height: auto;
+    display: flex;
+    margin: 0 auto !important;
+    padding: 20x;
+    text-align: center !important;
+    justify-content: center !important;
+    align-items: center !important;
+  }
+  
 }

@@ -223,7 +223,7 @@ and (max-width: 1500px) {
   .carousel-images img {
     border-radius: 10px;
     display: none;
-    width: 500px;
+    width: 700px;
   }
 }
 

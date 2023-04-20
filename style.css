@@ -221,7 +221,7 @@ article img {
 @media (max-width: 500px) {
   .carousel-images img {
     border-radius: 10px;
-    width: 400px;
+    width: 100px;
   }
   h1 {
     font-size: 50px;
@@ -246,7 +246,7 @@ article img {
     height: 10%;
   }
   article img {
-    max-width: 100%;
+    width: 100px;
     height: auto;
     display: flex;
     margin: 0 auto !important;
@@ -256,13 +256,6 @@ article img {
     align-items: center !important;
   }
   
-  .carousel-images {
-    width: 80%;
-    background: #928eb9;
-    padding: 10px;
-    border-radius: 10px;
-    box-sizing: border-box;
-      
-}
+ 
 
 }

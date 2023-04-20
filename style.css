@@ -218,7 +218,8 @@ article img {
 	cursor: pointer;
 }
 
-@media (max-width: 1500px){
+@media only screen
+and (max-width: 1500px) {
   .carousel-images img {
     border-radius: 10px;
     display: none;
@@ -226,7 +227,9 @@ article img {
   }
 }
 
-@media (min-width: 400px) and  (max-width: 500px) {
+@media only screen
+and (max-width: 500px)
+and (orientation: portrait) {
   .carousel-images img {
     width: 100px;
   }
@@ -282,7 +285,9 @@ article img {
 }
 
 
-@media (max-width: 200px) {
+@media only screen
+and (max-width: 200px)
+and (orientation: portrait) {
   .carousel-images img {
     border-radius: 10px;
     width: 50px;

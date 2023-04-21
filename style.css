@@ -269,13 +269,13 @@ and (orientation: portrait) {
   }
   p {
     font-size: 50px;
-    line-height: 24px;
+    line-height: 60px;
   }
   small {
     font-size: 50px;
   }
   .show-description p {
-    height: 3%;
+    height: 10%;
   }
 
   #react {

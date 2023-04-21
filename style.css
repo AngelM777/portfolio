@@ -23,22 +23,6 @@ nav {
     width: 100%;
 }
 
-.heading-container {
-  display: flex;
-  align-self: center;
-  align-content: center;
-  width: 100%;
-  padding: 10px;
-}
-
-
-.list-container {
-  display: flex;
-  align-self: center;
-  align-content: center;
-  align-content: center;
-  width: 100%;
-}
 
 .previous {
  display: flex;

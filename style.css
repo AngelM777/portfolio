@@ -293,7 +293,7 @@ and (orientation: portrait) {
     font-size: 16px;
   }
   .show-description p {
-    height: 5%;
+    height: 3%;
   }
   article img {
     max-width: 100%;

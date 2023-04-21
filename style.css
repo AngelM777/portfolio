@@ -131,30 +131,27 @@ body {
  
 /* biography */
 
+
 p {
   color: rgba(255,255,255,1);
-  background: #1e1e58;
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   padding: 10px;
-  line-height: 28px;
   text-align: justify;
-  position: absolute;
-  margin: 0 50% 50% 14%;
-  width: 26%;
-  height: 30px;
-  transition: height .5s;
+  height: 50px;
+  transition: height .05s;
   border-radius: 10px;
-
+  flex-direction: column;
+  font-size: 30px;
 }
 
 small {
   opacity: 0;
-  font-size: 12px;
+  font-size: 30px;
  
 }
 
 .show-description p {
-  height: 45%;
+  height: 100%;
 }
 
 .show-description small {
@@ -164,38 +161,31 @@ small {
 
 
 .biography{
-  background-color:#928eb9;
-  display: inline-block;
-  margin: 10px auto;
-  overflow: auto;
-  border-radius: 10px;
-  width: 80%;
-  font-family: 'Gloock';
-
-}
-
-article {
+  background: #1e1e58;
   display: flex;
- 
+  border-radius: 10px;
+  width: 50%;
+  font-family: 'Gloock';
+  display: flex;
+  align-items: center;
 }
 
-article img {
+
+#pic {
   max-width: 100%;
   height: auto;
   display: flex;
   margin: 0 auto !important;
-  padding: 20x;
-  text-align: center !important;
-  justify-content: center !important;
-  align-items: center !important;
+  padding: 20px;
+  border-radius: 5px;
+  flex-direction: column;
+
 }
 
 .more {
   float: right;
-}
-
-.mobile {
-  display: none;
+  font-size: 12px;
+  padding: 30px 30px;
 }
 
 /* .form{
@@ -263,17 +253,6 @@ and (max-width: 1500px) {
 and (max-width: 480px)
 and (orientation: portrait) {
 
-  .carousel-images img:first-of-type {
-    display:block
-  }
-      
-  .carousel-images img {
-    display: none;
-    border-radius: 10px;
-    max-width: 100%;
-    height: auto;
-  }
-
   h1 {
     font-size: 50px;
     margin-top: 20px;
@@ -296,27 +275,6 @@ and (orientation: portrait) {
   .show-description p {
     height: 3%;
   }
-  article img {
-    max-width: 100%;
-    height: auto;
-    
-  }
-
-
-#react {
- display: none !important;
-
-}
-
-#php {
-  display: none !important;
-
-}
-
-#flexbox {
- display: none !important;
-
-}
   
 #pic {
   src: url(https://tinyurl.com/5n7nv3kv) !important;

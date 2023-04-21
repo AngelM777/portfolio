@@ -43,14 +43,12 @@ nav {
  display: flex;
  align-self: center;
  position: absolute;
- top: 50%;
  right: 90%;
 }
 
 .next {
   display: flex;
   align-self: center;
-  top: 50%;
   right: 10%;
   position: absolute;
  }
@@ -136,7 +134,7 @@ p {
   color: rgba(255,255,255,1);
   background: linear-gradient(bottom, rgba(0,0,0,1), rgba(0,0,0,.4));
   padding: 10px;
-  text-align: justify;
+  text-align: center;
   height: 50px;
   transition: height .05s;
   border-radius: 10px;

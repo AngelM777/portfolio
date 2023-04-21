@@ -194,7 +194,11 @@ article img {
   float: right;
 }
 
-.form{
+.mobile {
+  display: none;
+}
+
+/* .form{
   background-color:#928eb9;
   margin: 10px auto;
   overflow: auto;
@@ -202,11 +206,11 @@ article img {
   width: 80%;
   font-family: 'Gloock';
 
-}
+} */
 
 /*modal*/
 
-#modal {
+/* #modal {
 	position: fixed;
 	top: 100px;
 	left: 10px;
@@ -241,7 +245,7 @@ article img {
 	color: white;
 	font-family: 'Gloock';
 	cursor: pointer;
-}
+} */
 
 @media only screen
 and (max-width: 1500px) {
@@ -300,17 +304,17 @@ and (orientation: portrait) {
 
 
 #react {
-  src: url(https://tinyurl.com/552kn64d) !important ;
+ display: none !important;
 
 }
 
 #php {
-  src: url(https://tinyurl.com/552kn64d) !important;
+  display: none !important;
 
 }
 
 #flexbox {
-  src: url(https://tinyurl.com/552kn64d) !important;
+ display: none !important;
 
 }
   

@@ -274,4 +274,16 @@ and (orientation: portrait) {
     height: 3%;
   }
 
+  #react {
+    src: url(https://tinyurl.com/552kn64d);
+  }
+
+  #php {
+    src: url(https://tinyurl.com/4u44nh5j);
+  }
+
+  #flexbox {
+    src: url(https://tinyurl.com/2e8n6mah);
+  }
+
 }

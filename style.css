@@ -290,4 +290,12 @@ and (orientation: portrait) {
     src: url(https://tinyurl.com/2e8n6mah);
   }
 
+  #pic {
+    display: none;
+  }
+
+  .carousel-container {
+    display: none;
+  }
+
 }

@@ -295,3 +295,24 @@ and (orientation: portrait) {
   }
 
 }
+
+@media only screen
+and (max-width: 1000px)
+and (orientation: landscape) {
+
+  .carousel-container {
+    display: none;
+  }
+
+  .coding {
+    display: none;
+  }
+
+  .more {
+    font-size: 35px;
+  }
+
+  #pic {
+    display: none;
+  }
+}

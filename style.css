@@ -291,7 +291,7 @@ and (orientation: portrait) {
   }
 
   .more {
-    font-size: 20px;
+    font-size: 35px;
   }
 
 }
@@ -309,7 +309,7 @@ and (orientation: landscape) {
   }
 
   .more {
-    font-size: 35px;
+    font-size: 20px;
   }
 
   #pic {

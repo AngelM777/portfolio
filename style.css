@@ -96,15 +96,25 @@ body {
   cursor: pointer;
   color: white;
 }
+
+.carousel-images img:hover {
+    opacity: 1;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    -o-transition: all 1s ease;
+    -ms-transition: all 1s ease;
+    transition: all 1s ease;
+}
     
 .carousel-images img:first-of-type {
-  display:block
+  display:block;
 }
     
 .carousel-images img {
   border-radius: 10px;
   display: none;
   width: 1000px;
+  opacity: 0.5;
 }
  
 .carousel-container {

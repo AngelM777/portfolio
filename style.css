@@ -278,18 +278,6 @@ and (orientation: portrait) {
     height: 10%;
   }
 
-  #react {
-    src: url(https://tinyurl.com/552kn64d);
-  }
-
-  #php {
-    src: url(https://tinyurl.com/4u44nh5j);
-  }
-
-  #flexbox {
-    src: url(https://tinyurl.com/2e8n6mah);
-  }
-
   #pic {
     display: none;
   }
@@ -301,4 +289,9 @@ and (orientation: portrait) {
   .coding {
     display: none;
   }
+
+  .more {
+    font-size: 35px;
+  }
+
 }

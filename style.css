@@ -298,4 +298,7 @@ and (orientation: portrait) {
     display: none;
   }
 
+  .coding {
+    display: none;
+  }
 }

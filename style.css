@@ -273,11 +273,5 @@ and (orientation: portrait) {
   .show-description p {
     height: 3%;
   }
-  
-#pic {
-  src: url(https://tinyurl.com/5n7nv3kv) !important;
-}
-  
- 
 
 }
